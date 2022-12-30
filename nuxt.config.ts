@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
-            link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css' }]
+            link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css' }],
+            script: [{ src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }]
         }
     }
 })
